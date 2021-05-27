@@ -1,63 +1,63 @@
 ---
 id: tip_request
-title: Request a Treasury Tip
+title: Запрос чаевых у казначейства
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
+С запуском [программы поощрений HydraDX New Deal](#link-to-new-deal), члены сообщества могут запрашивать у Казначейства чаевые HDX в качестве вознаграждения за свой вклад. Это руководство проведет вас через процесс запроса чаевых. Вы можете найти более подробную информацию о различных видах деятельности, которые получают вознаграждение в [этом посте](/new_deal).
 
-The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
+Процесс запроса чаевых казначейства состоит из двух этапов. На первом этапе участники должны опубликовать свой запрос на чаевые в Commonwealth.im с описанием вклада. На втором этапе запрос на чаевые в казначейство должен быть отправлен в сети с помощью Polkadot/apps.
 
-## 01 Publish the Tip Request in Commonwealth.im {#01-publish-tip-request}
+## 01 Опубликуйте запрос на получение чаевых в Commonwealth.im {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
+Для обеспечения прозрачности все запросы на чаевые Казначейства должны публиковаться в ветке на [странице Commonwealth HydraDX](https://commonwealth.im/hydradx). Перед тем как открыть ветку, вам необходимо связать свой кошелек HydraDX с Commonwealth.im: нажмите *Log in* (в правом верхнем углу) и выберите *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
 </div>
 
-After selecting your HDX address in the popup, you will be asked to sign the message using your wallet and to set a display name for this wallet.
+После выбора адреса HDX во всплывающем окне вам будет предложено подписать сообщение, используя свой кошелек, и указать отображаемое имя для этого кошелька.
 
-Once logged in, you need to create a new thread for your tip request. Navigate to the top-right part of the page and click on *New thread > New thread*. You can also directly use this link: https://commonwealth.im/hydradx/new/thread.
+После входа в систему вам необходимо создать новую ветку для запроса чаевых. Перейдите в верхнюю правую часть страницы и нажмите *New thread > New thread*. Вы также можете напрямую использовать эту ссылку: https://commonwealth.im/hydradx/new/thread.
 
-You can use the title of the thread to indicate the subject (tip request) and the topic of the contribution. In the body of the thread, please provide the following information:
+Вы можете использовать заголовок обсуждения, чтобы указать тему (запрос чаевых) и тему сообщения. В основной части обсуждения укажите следующую информацию:
 
-* Period when the contribution was made
-* A brief summary of the contribution
-* The amount of the requested tip (in HDX)
-* Time spent on the contribution (in hours)
-* If needed, a more detailed description including the relevance of the contribution to HydraDX
+* Период, когда был сделан взнос
+* Краткое изложение вклада
+* Сумма запрошенных чаевых (в HDX)
+* Время, потраченное на взнос (в часах)
+* При необходимости более подробное описание, включая актуальность вклада в HydraDX.
 
-For reference, you can take a look at [this example tip request](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
+Для справки вы можете взглянуть на [этот пример запроса чаевых](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
 
-After filling out the information, post the thread and it should become available in the general list.
+После заполнения информации опубликуйте ветку, и она должна стать доступной в общем списке.
 
 :::note
 
-Nominators and validators who overbonded their HDX and got "stuck" can request a Treasury tip of 1 HDX which will allow them to unbond some of their tokens. If this applies to your case, please create a Commonwealth thread following [this example](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
+Номинаторы и валидаторы, которые использовали все свои HDX и “застряли”, могут запросить у казначейства чаевые в размере 1 HDX, что позволит им отвязать некоторые из своих токенов. Если это относится к вашему случаю, создайте ветку в Commonwealth, следуя [этому примеру](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
 
 :::
 
-## 02 Submit the Tip Request On-Chain {#02-submit-on-chain}
+## 02 Отправьте запрос на получение чаевых в сеть {#02-submit-on-chain}
 
-After publishing your Treasury tip request, you need to submit it on-chain. For this purpose, your wallet needs to hold a small amount of HDX to cover the transaction fees. If you currently do not hold any HDX, you do not need to execute this step - someone else will submit your tip request on-chain for you.
+После публикации запроса на чаевые от казначейства вам необходимо отправить его в сеть. Для этого в вашем кошельке должно быть небольшое количество HDX, чтобы покрыть комиссию за транзакцию. Если в настоящее время у вас нет HDX, вам не нужно выполнять этот шаг - кто-то другой отправит ваш запрос на чаевые в сеть за вас.
 
-Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Запросы казначейских чаевых можно отправлять в сети с помощью Polkadot/apps, используя следующую ссылку: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
 
-To submit a new tip request, click on *Propose tip* and provide the following information:
+Чтобы отправить новый запрос на чаевые, нажмите *Propose tip* и укажите следующую информацию:
 
-* **submit with account** - select the account which will sign the transaction for submitting the tip request on-chain. This account needs to hold a small amount of HDX for transaction costs.
-* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond to the account which opened the Commonwealth thread.
-* **tip reason** - provide a URL to the Commonwealth thread.
+* **submit with account** - выберите учетную запись, которая будет подписывать транзакцию для отправки запроса чаевых в цепочке. Эта учетная запись должна содержать небольшое количество HDX для покрытия транзакционных издержек.
+* **beneficiary** - выберите или введите адрес счета, на который будут отправлены чаевые. Эта учетная запись должна соответствовать учетной записи, которая открыла ветку Commonwealth.
+* **tip reason** - укажите URL-адрес ветки Commonwealth.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
 </div>
 
-To submit the tip request, click on *Propose tip* and sign the transaction. 
+Чтобы отправить запрос на чаевые, нажмите *Propose tip*и подпишите транзакцию.
 
-Once the transaction is confirmed, you should see the tip request on the overview page.
+После подтверждения транзакции вы должны увидеть запрос чаевых на странице обзора.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/tip-requests.jpg')} />
