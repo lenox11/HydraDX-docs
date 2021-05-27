@@ -1,63 +1,63 @@
 ---
 id: new_deal
-title: Contribute and Get Rewarded
+title: Внесите свой Вклад и Получите Вознаграждение
 ---
 
-The [HydraDX New Deal](#link-to-blog-post) is our appeal to all Hydraheads to join forces in our mission to build the liquidity infrastructure of the future. The New Deal introduces a generous reward scheme which is designed to incentivize community contributions. With the New Deal, we aim to blur the lines between the team and the community. The resulting synergy will eventually result in the birth of the Omnipool, the most advanced liquidity provider the world is about to see.
+[Новый курс HydraDX](https://hydradx.substack.com/p/incentivized-testnet-reward-scheme) - это наш призыв ко всем Hydraheads объединить усилия для выполнения нашей миссии по созданию инфраструктуры ликвидности будущего. Новый курс вводит щедрую схему вознаграждения, которая призвана стимулировать вклад сообщества. С помощью Нового курса мы стремимся стереть границы между командой и сообществом. В результате синергия в конечном итоге приведет к рождению Omnipool, самого продвинутого поставщика ликвидности, который мир вот-вот увидит.
 
-The New Deal allows us to issue HDX rewards from the Treasury for a wide variety of community contributions which are aligned with the goals of HydraDX. You can find more information on the process of submitting a Treasury tip request in [this guide](/tip_request).
+Новый курс позволяет нам выдавать награды HDX из Казначейства за широкий спектр вкладов сообщества, которые соответствуют целям HydraDX. В [этом руководстве](/tip_request) вы можете найти дополнительную информацию о процессе подачи запроса на получение чаевых от казначейства.
 
-For more inspiration, we have outlined some of the most pressing areas where we welcome your involvement. The list is not exhaustive, so please feel free to reach out to us if you want to share your ideas.
+Для большего вдохновения мы выделили некоторые из наиболее актуальных областей, в которых мы приветствуем ваше участие. Список не является исчерпывающим, поэтому, пожалуйста, обращайтесь к нам, если вы хотите поделиться своими идеями.
 
-Unless otherwise stated below, all contributions will be assessed individually based on their merit and relevance to the project in order to determine an appropriate reward.
+Если ниже не указано иное, все взносы будут оцениваться индивидуально, исходя из их заслуг и значимости для проекта, чтобы определить соответствующее вознаграждение.
 
-### 1. Bug Bounties {#bug-bounties}
+### 1. Баг баунти {#bug-bounties}
 
-Hacks in DeFi are not uncommon. Incentivized Snakenet is a time and place to make sure that HydraDX is bulletproof (we might as well have called it “Operation Bulletproof”). HydraDX becoming the heart that pumps liquidity through the financial system requires all of us to join efforts and battle-test it.
+Взломы в DeFi не редкость. Incentivized Snakenet - это время и место, чтобы убедиться, что HydraDX является пуленепробиваемым (мы могли бы также назвать это «Operation Bulletproof»). HydraDX становится сердцем, прокачивающим ликвидность через финансовую систему, и требует от всех нас объединить усилия и протестировать ее в бою.
 
-Hydraheads who find and report bugs will be rewarded from $100 up to $100k in HDX based on the severity of the bug and the stage of the project. The protocol will also undergo formal security audits, but please go ahead and start breaking things as soon as possible. In the coming weeks, we will be highlighting parts of the code that we would appreciate being looked at more thoroughly.
+Hydrahead, которые обнаружат и сообщат об ошибках, получат вознаграждение от 100$ до 100 000$ в HDX в зависимости от серьезности ошибки и стадии проекта. Протокол также будет проходить формальный аудит безопасности, но, пожалуйста, начните “взламывать” его как можно скорее. В ближайшие недели мы будем выделять части кода, которые хотелось бы изучить более тщательно.
 
-### 2. Protocol Improvements (Economic Design / Governance) {#protocol-improvements}
+### 2. Улучшения протокола (экономический дизайн / управление) {#protocol-improvements}
 
-DeFi has become an alternative financial universe. Its evolutionary process has been squeezed from hundreds of years into just weeks or months. The wilderness that is DeFi is unpredictable, shattering hopes and foundational assumptions of many projects. 
+DeFi превратился в альтернативную финансовую вселенную. Его эволюционный процесс сократился с сотен лет до недель или месяцев. Пустыня, которой является DeFi, непредсказуема, разбивая надежды и основополагающие предположения многих проектов.
 
-Sometimes, it could be harder to spot economic exploits than technical ones. HydraDX would welcome people to contribute in terms of the following: 
+Иногда бывает труднее обнаружить экономические подвиги, чем технические. HydraDX приветствует людей, которые вносят свой вклад в следующем:
 
-* Analysis & research (dynamic trading fees, different token utilities etc.)
-* Parameters tweaking (size of fees; Is burning of all tx fees and HDX trading fees the best option for protocol? How much to burn, how much to allocate for the Treasury, the stakers etc.?)
+* Анализ и исследования (динамические торговые комиссии, различные токены и т. д.)
+* Настройка параметров (размер комиссий; сжигание всех комиссий от транзакций и торговых комиссий HDX - лучший вариант для протокола? Сколько сжечь, сколько выделить для Казначейства, стейкеров и т. д.?)
 
-To make your life easier with the gargantuan tasks above we will open source a so-called “digital twin” of HydraDX implemented in [cadCAD](https://cadcad.org/) - Python libraries for complex testing of various economic & governance scenarios. We are inviting Hydraheads to form a decentralized research group, and we assure you that your contributions will not go unnoticed.
+Чтобы облегчить вам жизнь с помощью гигантских задач, описанных выше, мы откроем исходный код так называемого «цифрового двойника» HydraDX, реализованного в [cadCAD](https://cadcad.org/) - библиотеки Python для комплексного тестирования различных сценариев экономики и управления. Мы приглашаем Hydraheads сформировать децентрализованную исследовательскую группу и заверяем вас, что ваш вклад не останется незамеченным.
 
-### 3. Technical Protocol Improvements {#technical-protocol-improvements}
+### 3. Улучшения технического протокола {#technical-protocol-improvements}
 
-To make it easier for future Hydraheads, we need a rich set of tooling and integrations. We were able to think of the following:
+Чтобы упростить жизнь Hydraheads в будущем, нам понадобится богатый набор инструментов и интеграции. Мы смогли придумать следующее:
 
-* Mobile and hardware wallets (e.g. Trezor and Ledger)
-* Infrastructure tooling (blockchain explorers, node, validator node monitoring)
-* Trading dashboards & tools (trading bots, LP dashboards)
-* General development
+* Мобильные и аппаратные кошельки (например, Trezor и Ledger)
+* Инструменты инфраструктуры (обозреватели блокчейнов, узлы, мониторинг узлов валидатора)
+* Торговые панели и инструменты (торговые роботы, панели инструментов LP)
+* Общее развитие
 
-### 4. New Use Cases & Products {#new-use-cases}
+### 4. Новые варианты использования и Продукты {#new-use-cases}
 
-* New use cases such as Lending and Options
-* Specifications or MVPs
-* Interoperability use-cases
-* Infrastructure or trading tools
+* Новые варианты использования, такие как кредитование и опционы
+* Технические характеристики или MVP
+* Сценарии использования совместимости
+* Инфраструктура или торговые инструменты
 
-### 5. Community Building & Management {#community-building}
+### 5. Строительство и управление сообществом {#community-building}
 
-While we believe in organic community building, we also welcome the involvement of community managers who would like to take up the task of expanding the local communities (quality over quantity) and finding more Hydraheads who want to get involved.
+Хотя мы верим в создание органического сообщества, мы также приветствуем участие менеджеров сообществ, которые хотели бы взять на себя задачу расширения местных сообществ (качество превыше количества) и найти больше Hydraheads, которые хотят принять участие.
 
-Becoming a community manager is based on merit. Any member who proves to be an active and constructive participant, willing to help others and spreading the word about HydraDX, can become one.
+Стать менеджером сообщества нужно на основе заслуг. Любой участник, который окажется активным и конструктивным участником, готов помочь другим и распространить информацию о HydraDX, может стать им.
 
-The base reward for community managers is the equivalent of $20 per hour, paid out in HDX.
+Базовое вознаграждение для менеджеров сообщества эквивалентно 20 долларам в час, выплачиваемым в HDX.
 
-### 6. Other Community Contributions {#other-contributions}
+### 6. Другие вклады сообщества {#other-contributions}
 
-There are many other helpful tasks which will be rewarded with Treasury tips, including:
+Есть много других полезных задач, которые будут вознаграждены советами Казначейства, в том числе:
 
-* Creating content (guides, translations, blogs, documentation)
-* Helping spreading the word by producing educational material (explanative blogs, ELI5 animations, videos)
-* Unfolding your creativity and creating stickers and memes (we will be rewarding the best ones)
+* Создание контента (руководства, переводы, блоги, документация)
+* Содействие распространению информации путем создания учебных материалов (пояснительные блоги, анимация ELI5, видео)
+* Раскройте свой творческий потенциал и создавайте стикеры и мемы (будем награждать лучших)
 
-Community contributions will be assessed individually by the community managers. The reward for eligible community contributions under this category is the equivalent of $20 per hour, paid out in HDX.
+Вклад сообщества будет оцениваться менеджерами сообщества индивидуально. Вознаграждение за соответствующие взносы сообщества в этой категории эквивалентно 20 долларам в час, выплачиваемым в HDX.
